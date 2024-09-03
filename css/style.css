@@ -5,7 +5,7 @@
 }
 
 body{
-    background-color: rgb(255, 247, 235);
+    background-color: rgb(255, 239, 216);
     display: grid;
     grid-template-areas: 
     "header header header"
@@ -21,4 +21,16 @@ header{
 
 footer{
     background-color: black;
+}
+.logoName{
+    font-size: 32px;
+    font-weight: bold;
+}
+
+
+@media screen and (max-width: 360px) {
+    .logoName{
+    font-size: 17px;
+    font-weight: bold;
+}
 }
