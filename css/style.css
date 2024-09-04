@@ -61,7 +61,7 @@ form {
     box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
 }
 
-/* Estilizando o botão de envio */
+
 button[type="submit"] {
     background-color: #42866D;
     color: white;
