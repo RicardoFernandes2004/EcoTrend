@@ -28,62 +28,123 @@
             </ul>
         </div>
     </header>
-    <div class="info">
-        <div class="jumbotron">
-            <video autoplay muted loop>
-              <source src="assets/videoplayback.webm" type="video/webm">
-              Seu navegador não suporta o vídeo.
-            </video>
-            <div class="container">
-              <h1 class="display-4">EcoTrend</h1>
-              <p class="lead">Seu Destino para Produtos Sustentáveis e Conscientes</p>
-            </div>
-          </div>
-    </div>
+
     <main>
+        <div id="carouselExampleFade" class="carousel slide carousel-fade" data-ride="carousel">
+            <div class="carousel-inner">
+                <!-- Primeiro vídeo -->
+                <div class="carousel-item active">
+                    <video class="d-block w-100" autoplay muted loop>
+                        <source src="assets/videoplayback (1).mp4" type="video/mp4">
+                        Seu navegador não suporta vídeos HTML5.
+                    </video>
+                </div>
+                <!-- Segundo vídeo -->
+                <div class="carousel-item">
+                    <video class="d-block w-100" autoplay muted loop>
+                        <source src="assets/videoplayback.mp4" type="video/mp4">
+                        Seu navegador não suporta vídeos HTML5.
+                    </video>
+                </div>
+                <!-- Terceiro vídeo -->
+                <div class="carousel-item">
+                    <video class="d-block w-100" autoplay muted loop>
+                        <source src="assets/Summiting the Matterhorn with an FPV Drone.mp4" type="video/mp4">
+                        Seu navegador não suporta vídeos HTML5.
+                    </video>
+                </div>
+            </div>
+            <!-- Texto sobreposto ao carrossel -->
+            <div class="carousel-caption">
+                <h1>EcoTrend</h1>
+                <p>Seu Destino para Produtos Sustentáveis e Conscientes</p>
+            </div>
+        </div>
         <div id="cardCarousel" class="carousel slide" data-ride="carousel">
             <div class="carousel-inner">
-                <!-- Card 1 -->
+                <!-- Primeiro slide com 3 cards -->
                 <div class="carousel-item active">
-                    <div class="card text-center">
-                        <a href="link1.html"> <!-- link luz -->
-                            <img src="assets/14c7060b11d3761ebc97f9b6e7bbc0ec.jpg" class="card-img-top" alt="Imagem 1">
-                        </a>
-                        <div class="card-body" style="height: 322.5px;">
-                            <h5 class="card-title">Lorem, ipsum dolor.</h5>
-                            <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis, magni.</p>
-                            <a href="link1.html" class="btn btn-primary">Saiba mais</a>
+                    <div class="card">
+                        <img src="assets/14c7060b11d3761ebc97f9b6e7bbc0ec.jpg" class="card-img-top" alt="Imagem 1">
+                        <div class="card-body">
+                            <h5 class="card-title">Luz Econômica</h5>
+                            <p class="card-text"><s>R$30.00</s> R$15.00</p>
+                            <a href="#" class="btn btn-custom">Saiba Mais</a>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <img src="/assets/lampadaledeconomica.jpg" class="card-img-top" alt="Imagem 2">
+                        <div class="card-body">
+                            <h5 class="card-title">Lampada Led Economica</h5>
+                            <p class="card-text"><s>R$25.00</s> R$15.00</p>
+                            <a href="#" class="btn btn-custom">Saiba Mais</a>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <img src="assets/lampadaEconomicaAvant.jpg" class="card-img-top" alt="Imagem 3">
+                        <div class="card-body">
+                            <h5 class="card-title">Lampada Economica Avant</h5>
+                            <p class="card-text"><s>R$34.25</s> R$32.99</p>
+                            <a href="#" class="btn btn-custom">Saiba Mais</a>
                         </div>
                     </div>
                 </div>
-                <!-- Card 2 -->
+                <!-- Segundo slide com 3 cards -->
                 <div class="carousel-item">
-                    <div class="card text-center">
-                        <a href="link2.html"> <!-- link roupa-->
-                            <img src="assets/1c8df42cdf71709d096513069b547de8.jpg" class="card-img-top" alt="Imagem 2">
-                        </a>
+                    <div class="card">
+                        <img src="/assets/b45279c34b87a16d370e3dadbb9db8af.jpg" class="card-img-top" alt="Imagem 4">
                         <div class="card-body">
-                            <h5 class="card-title">Lorem, ipsum dolor.</h5>
-                            <p class="card-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Deserunt, repellat?</p>
-                            <a href="link2.html" class="btn btn-primary">Saiba mais</a>
+                            <h5 class="card-title">Creme hidratante</h5>
+                            <p class="card-text"><s>R$70.00</s> R$65.90</p>
+                            <a href="#" class="btn btn-custom">Saiba Mais</a>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <img src="/assets/oleo.jpg" class="card-img-top" alt="Imagem 5">
+                        <div class="card-body">
+                            <h5 class="card-title">Óleo vegetal</h5>
+                            <p class="card-text"><s>R$42.52</s> R$24.98</p>
+                            <a href="#" class="btn btn-custom">Saiba Mais</a>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <img src="/assets/snack-natural-50-p0bwbn6vki.webp" class="card-img-top" alt="Imagem 6">
+                        <div class="card-body">
+                            <h5 class="card-title">Snack Sabor Natural</h5>
+                            <p class="card-text"><s>R$18.98</s> R$12.32</p>
+                            <a href="#" class="btn btn-custom">Saiba Mais</a>
                         </div>
                     </div>
                 </div>
-                <!-- Card 3 -->
+                <!-- Terceiro slide com 3 cards -->
                 <div class="carousel-item">
-                    <div class="card text-center">
-                        <a href="link3.html">
-                            <img src="assets/b45279c34b87a16d370e3dadbb9db8af.jpg" class="card-img-top" alt="Imagem 3">
-                        </a>
+                    <div class="card">
+                        <img src="assets/1c8df42cdf71709d096513069b547de8.jpg" class="card-img-top" alt="Imagem 7">
                         <div class="card-body">
-                            <h5 class="card-title">Lorem, ipsum dolor.</h5>
-                            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maiores, in?</p>
-                            <a href="link3.html" class="btn btn-primary">Saiba mais</a>
+                            <h5 class="card-title">Vestido de Primavera</h5>
+                            <p class="card-text"><s>R$169.90</s> R$129.90</p>
+                            <a href="#" class="btn btn-custom">Saiba Mais</a>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <img src="assets/conjunto natural2.jpg" class="card-img-top" alt="Imagem 8">
+                        <div class="card-body">
+                            <h5 class="card-title">Conjunto de Verão</h5>
+                            <p class="card-text"><s>R$249.90</s> R$199.90</p>
+                            <a href="#" class="btn btn-custom">Saiba Mais</a>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <img src="assets/Casaco-frio-feminino-de-inverno-jaqueta-de-raposa-para-mulheres-roupas-naturais-reais-de-pele-de.webp" class="card-img-top" alt="Imagem 9">
+                        <div class="card-body">
+                            <h5 class="card-title">Casaco de Inverno</h5>
+                            <p class="card-text"><s>R$900.00</s> R$799.90</p>
+                            <a href="#" class="btn btn-custom">Saiba Mais</a>
                         </div>
                     </div>
                 </div>
             </div>
-            <!-- Controles do Carrossel -->
+            <!-- Controles do carrossel -->
             <a class="carousel-control-prev" href="#cardCarousel" role="button" data-slide="prev">
                 <span class="carousel-control-prev-icon" aria-hidden="true"></span>
                 <span class="sr-only">Previous</span>
