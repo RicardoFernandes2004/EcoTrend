@@ -24,6 +24,7 @@ header{
 }
 
 footer{
+    grid-area: footer;
     background-color: #42866D;
     color: white;
     margin-top: auto;
@@ -44,6 +45,20 @@ footer hr {
 img {
     max-width: 100%; 
     height: auto;
+}
+
+.carousel-caption {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    text-align: center;
+}
+.carousel-caption h1 {
+    font-size: 6rem;
+    font-weight: bold;
+}
+.carousel-caption p {
+    font-size: 1.5rem;
 }
 
 main{
@@ -106,15 +121,16 @@ main{
     }
 
     body{
-=======
-}
+    }
 header{
-    background-color: #E5FFD1;
+    /* background-color: #E5FFD1; */
     z-index: 1000;
-    height: 150px;
 }
 .card_image_top{
     height: 400px;
+}
+.info{
+    display: none;
 }
 body{
 
@@ -123,11 +139,23 @@ body{
     grid-template-areas: 
     "header header header"
     "main main main"
-    "info info info";
+    "footer footer footer";
     grid-template-columns: 1fr auto 1fr;
-    grid-template-rows: repeat(6,1fr);
+    /* grid-template-rows: repeat(6,1fr);
+     */
+    grid-template-rows: repeat(4,0.5fr);
     }
-=======
-    grid-template-rows: repeat(5,0.5fr);
-}
+    .carousel-caption {
+        position: absolute;
+        top: 50%;
+        transform: translateY(-150%);
+        text-align: center;
+    }
+    .carousel-caption h1 {
+        font-size: 3rem;
+        font-weight: bold;
+    }
+    .carousel-caption p {
+        font-size: 0.75rem;
+    }
 }
